@@ -1,0 +1,32 @@
+# Ambientes Virtuais (Python venv)
+venv/
+env/
+ENV/
+bin/
+lib/
+share/
+include/
+pyvenv.cfg
+
+# Dados e Datasets (Arquivos Pesados)
+*.csv
+*.xlsx
+*.parquet
+*.json
+.cache/
+kagglehub/
+
+# Cache do Python e Streamlit
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.streamlit/config.toml
+
+# Logs e arquivos temporários do PyCaret
+logs.log
+*.log
+
+# Sistema Operacional
+.DS_Store
+Thumbs.db
